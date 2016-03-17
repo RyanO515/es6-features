@@ -32,7 +32,7 @@ class BankAccount {
 	}
 	//printBalance ()
 	printBalance () {
-		console.log(`Your balance is $${this.balance}!  Last updated on ${this.balanceUpdatedAt}`);
+		console.log(`Your balance is $${this.balance}!  Last updated on ${this.balanceUpdatedOn}`);
 	}
 }
 
